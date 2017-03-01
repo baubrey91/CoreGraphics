@@ -14,6 +14,7 @@
 		CA5CB2451E662990001BE666 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CA5CB2431E662990001BE666 /* LaunchScreen.storyboard */; };
 		CA5CB24D1E6629E1001BE666 /* PushButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA5CB24C1E6629E1001BE666 /* PushButtonView.swift */; };
 		CA5CB24F1E6639A1001BE666 /* CounterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA5CB24E1E6639A1001BE666 /* CounterView.swift */; };
+		CA9C91881E664C3300E72FCA /* GraphView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA9C91871E664C3300E72FCA /* GraphView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		CA5CB2461E662990001BE666 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CA5CB24C1E6629E1001BE666 /* PushButtonView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PushButtonView.swift; sourceTree = "<group>"; };
 		CA5CB24E1E6639A1001BE666 /* CounterView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CounterView.swift; sourceTree = "<group>"; };
+		CA9C91871E664C3300E72FCA /* GraphView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GraphView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +68,7 @@
 				CA5CB2461E662990001BE666 /* Info.plist */,
 				CA5CB24C1E6629E1001BE666 /* PushButtonView.swift */,
 				CA5CB24E1E6639A1001BE666 /* CounterView.swift */,
+				CA9C91871E664C3300E72FCA /* GraphView.swift */,
 			);
 			path = coreGraphicsTest;
 			sourceTree = "<group>";
@@ -143,6 +146,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CA9C91881E664C3300E72FCA /* GraphView.swift in Sources */,
 				CA5CB23D1E662990001BE666 /* ViewController.swift in Sources */,
 				CA5CB24D1E6629E1001BE666 /* PushButtonView.swift in Sources */,
 				CA5CB23B1E662990001BE666 /* AppDelegate.swift in Sources */,
@@ -308,6 +312,7 @@
 				CA5CB24B1E662990001BE666 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
